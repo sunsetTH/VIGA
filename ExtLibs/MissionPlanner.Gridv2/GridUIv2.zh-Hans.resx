@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BUT_Accept.Text" xml:space="preserve">
+    <value>参数确认</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>角度 [deg]</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>分辨率</value>
+  </data>
+  <data name="chk_includeland.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="chk_includeland.Text" xml:space="preserve">
+    <value>增加降落点</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>速度 [m/s]</value>
+  </data>
+  <data name="CHK_includetakeoff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="CHK_includetakeoff.Text" xml:space="preserve">
+    <value>增加起飞点</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="chk_footprints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="chk_footprints.Text" xml:space="preserve">
+    <value>覆盖区域</value>
+  </data>
+  <data name="chk_internals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="chk_internals.Text" xml:space="preserve">
+    <value>内部信息</value>
+  </data>
+  <data name="chk_grid.Text" xml:space="preserve">
+    <value>航线</value>
+  </data>
+  <data name="chk_markers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="chk_markers.Text" xml:space="preserve">
+    <value>标志</value>
+  </data>
+  <data name="chk_boundary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="chk_boundary.Text" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="map.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 0</value>
+  </data>
+  <data name="map.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 449</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>每张图片用时估计:</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>飞行时间估计:</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>线间距:</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>覆盖区域:</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>航线条数:</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>图像间距: </value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>距离: </value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>统计信息</value>
+  </data>
+  <data name="RAD_camdirectionland.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="RAD_camdirectionland.Text" xml:space="preserve">
+    <value>焦距</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>相机种类</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>最大飞行时间 (min)</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>最大速度 (m/s)</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>最小速度 (m/s)</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>飞机参数设置</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LBL_topdock.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LBL_topdock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 429</value>
+  </data>
+  <data name="LBL_topdock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="LBL_topdock.Text" xml:space="preserve">
+    <value>请在想测绘的区域上点击和拖动框体</value>
+  </data>
+  <data name="toolStripButtonpan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAYAAACYTcH3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVFhH3dfdDYIwEMBxB9K4Azto4i7GTboAA5AwCC7A
+        CxP0pQ+1l1Cl0I/r9STVh/+DoQm/0KOGg1JK19IfYaZePy533U+ea4ToGIA0R30+mRoeEA2zhNgYQPkY
+        H4QJlIeJQWwFIDwGA7ERQWiMlNL5PYirA7iJp3N9vR4TbYBNKQylOMZsjWj9N8FihlagtyyMmWckeBMs
+        BtYhZ8iPWQwrCwbWIEBbzOqtYcNACZCLyXl9qUVAH8weEFsA9MbIsdsV043bc6jSbbJVM8C2BYgNk4BA
+        fgw0g1gwCAgUxkAGVMffQSIsJqffxGSdQ4FzJFXek8GcQ8hh9ZW/TTFQAQSizYwPVAiByAPsgBggEB0D
+        AaiKz9svVBFG6Rd1e9Y5lEtQTQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="toolStripButtonpan.Text" xml:space="preserve">
+    <value>平移</value>
+  </data>
+  <data name="toolStripButtonbox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAbCAYAAACJISRoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABSSURBVEhLY/j9+/d/WuNRS0jCRFtydW7Yf31dHTiOnHsN
+        qzpseNSSUUvw46FjCbohlGJkR4xaQhBjtYQQpkrEE8KjloDwqCVD2BJK8HCx5Pd/AN03CWSn67z9AAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButtonbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="toolStripButtonbox.Text" xml:space="preserve">
+    <value>框体设置</value>
+  </data>
+  <data name="toolStripButtonmovebox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACUAAAAhCAYAAABeD2IVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEOSURBVFhH7ZcxCsIwFIY9kCII4l5xEldBHMQDeAPxAHqG
+        bLoIrsVuXbo6FJTuXTo7ZOnwG6QRjEFfK+grZPiGQl74mvxpXxp5noMbTooKX6mzGKPdaj7jLeGn0lpE
+        RaY+Vp4xr2IiLtbxGruUEgoye0FpsuBFrIJUH5vouxUykdEag8pS3hCjXhPdqUAs7QWlkTHEtIN2T81d
+        rBhdSm/Z9YTdYoi5iCGNweWRiMUMo8UWp6t6LraSJrUXRoYk0vCAIPky6MkRhzB9fjklJvYEKW7UV8r6
+        HXvDp8x8wklRcVJUnBSV+kr9Gr5SLH/I98ywa110kNk1eY/Tw60d1vC7OBT8+4rFDSdFxUnRyHEDTkQU
+        BkOjXeoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonmovebox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="toolStripButtonmovebox.Text" xml:space="preserve">
+    <value>移动框体</value>
+  </data>
+  <data name="toolStripButtoneditbox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAYAAABplKSyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAENSURBVFhH7dU9DoIwFMBxD6Rxk5i4yB1g8QquJg7Gm+jG
+        4OZEwkEMg6MLJ2Dp8OQRX1KxpR880BiG/1JI+8trAhMhBHy7EUH9GaLI4BgdICsUzwzxIBAQTmE+qwrd
+        Id0RMoByhHRDNCeQ+03EH6G7gvwMG8eJ+CF0AFoPI4gdJuKOMAJea7r3FLkhbAGKd9NH+b6XlD2iA6Bt
+        CpgdokcAZkb0DMDaEQMAMD1C3nQWwPZyh1JeZwJgakRz0/pLuIZdkrADMCXidoo/N6XDVntIGQGYPQKr
+        D60mcq2uhgmAtSO0kAUsAx4AZkY0D2KcAGWHoAM9f9Wm7BFyjADMHcEMwJSIoRsR1IigfgAh4AkjFFxl
+        uV0ltgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtoneditbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="toolStripButtoneditbox.Text" xml:space="preserve">
+    <value>编辑框体</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 449</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>测区航线生成工具</value>
+  </data>
+</root>
