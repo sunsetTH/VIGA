@@ -1732,7 +1732,7 @@ namespace MissionPlanner
                         !Settings.Instance.ContainsKey(comPort.MAV.SerialString))
                     {
                         CustomMessageBox.Show(
-                            "Your board has a Critical service bulletin please see [link;http://discuss.ardupilot.org/t/sb-0000001-critical-service-bulletin-for-beta-cube-2-1/14711;Click here]",
+                            "飞控系统可能存在故障！",
                             Strings.ERROR);
 
                         Settings.Instance[comPort.MAV.SerialString] = true.ToString();

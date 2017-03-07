@@ -249,7 +249,7 @@ Mission Planner waits for 2 valid heartbeat packets before connecting</value>
     <value>无效的文件名</value>
   </data>
   <data name="Stillmoving" xml:space="preserve">
-    <value>您的模型仍然在移动，确认断开连接？</value>
+    <value>您的机器仍然在移动，确认断开连接？</value>
   </data>
   <data name="Start" xml:space="preserve">
     <value>开始</value>
